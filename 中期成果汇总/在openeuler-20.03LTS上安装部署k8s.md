@@ -357,7 +357,15 @@ kubeadm join 192.168.83.84:6443 --token uxqtze.cgj4ik3v6zt0j9hf \
     --discovery-token-ca-cert-hash sha256:26c592cf0fb5361b4ab85e7826dd23fcf2538a2679ba135d1e27397de54f77d6`
 - 该用于把node节点加入到集群中
 
-## 6.3 查看k8s集群节点
+## 6.3 按照提示，执行以下代码
+
+```
+  mkdir -p $HOME/.kube  
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config  
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config  
+```
+
+## 6.4 查看k8s集群节点
 
 ```
 #查看节点  
