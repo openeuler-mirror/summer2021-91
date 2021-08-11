@@ -117,6 +117,11 @@ yum repolist
 yum -y install net-tools git tar lrzsz
 ```
 
+- net-tools 可以使用ifconfig 查看虚拟机的网络配置
+- lrzsz 是Xshell与主机交换文件的命令包
+- tar 与压缩包相关
+
+
  
 
  
