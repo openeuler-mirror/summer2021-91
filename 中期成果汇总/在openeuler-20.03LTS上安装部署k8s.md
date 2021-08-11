@@ -51,12 +51,14 @@ baseurl=https://repo.huaweicloud.com/openeuler/openEuler-20.03-LTS/EPOL/x86_64/
 enabled=1  
 gpgcheck=0 
 ```
+![图1](https://images.gitee.com/uploads/images/2021/0811/195618_44e89606_9392840.png "1.png")
 
 - 配置完成后，更新yum源
 
 ```
 yum makecache
 ```
+![图2](https://images.gitee.com/uploads/images/2021/0811/195728_c6561564_9392840.png "2.png")
 
 ## 2.2 配置dnf源（master节点和node节点都需要操作）
 
@@ -74,8 +76,7 @@ skip_if_unavailable=False
 ```
 
 - 主要将`gpgcheck=1`修改为`gpgcheck=1`
-
-图
+![图3](https://images.gitee.com/uploads/images/2021/0811/195941_e715bd9c_9392840.png "3.png")
 
 
 ## 2.3 配置k8s的yum源（master和node节点都需要）
@@ -101,8 +102,7 @@ yum clean all
 yum makecache
 
 ```
-
-图
+![图4](https://images.gitee.com/uploads/images/2021/0811/200048_4a8ff17d_9392840.png "4.png")
 
 
 > # 三、安装docker（master和node节点都需要）
@@ -123,11 +123,15 @@ dnf install -y docker conntrack-tools socat
 docker version
 ```
 
+![图5](https://images.gitee.com/uploads/images/2021/0811/200150_0163f5b0_9392840.png "5.png")
+
+
 ## 3.3 docker启动失败
 
-图
+![图6](https://images.gitee.com/uploads/images/2021/0811/200246_d49eae79_9392840.png "6.png")
 
 - 若查询docker版本时，发现docker启动失败，可采用以下方法解决：
+
 
 1. 进入目录`/etc/docker`，发现没有daemon.json文件，可以自己创建一个后，加入如下内容：
 
@@ -153,7 +157,7 @@ vi /etc/sysconfig/selinux
 #将SELINUX 改为disabled
 ```
 
-图 
+![图7](https://images.gitee.com/uploads/images/2021/0811/200332_dd800028_9392840.png "7.png")
 
 4. 重启docker
 
@@ -201,7 +205,7 @@ cat /proc/sys/net/bridge/bridge-nf-call-ip6tables
 cat /proc/sys/net/bridge/bridge-nf-call-iptables  
 ```
 
-图
+![图8](https://images.gitee.com/uploads/images/2021/0811/200438_c8cf7cad_9392840.png "8.png")
 
 > # 五、安装k8s（master和node节点都需要）
 
@@ -218,14 +222,13 @@ yum install -y kubelet-1.19.0-0 kubeadm-1.19.0-0 kubectl-1.19.0-0
 - 若出现报错，无法找到kubelet、kubeadm、kubectl
 - 尝试更改yum源后，再重新安装
 
-## 5.2 查看kubelet、kubeadm版本
+## 5.2 查看kubelet、kubectl版本
 
 ```
-kubelet version
+kubelet --version
 kubeadm version
 ```
-
-图
+![图9](https://images.gitee.com/uploads/images/2021/0811/200805_89569ecc_9392840.png "9.png")
 
 ## 5.3 启动kubelet并设置开机自动启动服务
 
@@ -242,8 +245,7 @@ systemctl enable kubelet
 #查看kubelet开机启动状态 enabled:开启, disabled:关闭  
 systemctl is-enabled kubelet  
 ```
-
-图
+![图10](https://images.gitee.com/uploads/images/2021/0811/200933_de590220_9392840.png "10.png")
 
 > # 六、初始化k8s集群（只需要master操作）
 
@@ -380,8 +382,7 @@ kubeadm join 192.168.1.103:6443 --token mz7qyy.tsdn8hdrp18xrddx  --discovery-tok
 #最后在master节点查看加入情况
 kubectl get nodes
 ```
-
-图 
+![图11](https://images.gitee.com/uploads/images/2021/0811/201125_7e0026be_9392840.png "11.png")
 
 > # 八、安装flannel（在master操作）
 
