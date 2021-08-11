@@ -1,4 +1,4 @@
-> # openeuler的yum源配置和常用软件包的下载
+# openeuler的yum源配置和常用软件包的下载
 
 > # 一、配置yum源
 
