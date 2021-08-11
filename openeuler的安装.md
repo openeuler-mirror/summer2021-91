@@ -82,7 +82,9 @@
 ![图23](https://images.gitee.com/uploads/images/2021/0811/144437_638a3e2e_9392840.png "23.png")
 
 ## 3.5 设置root密码
+
 - 密码需要三种不同字符
+
 ![图24](https://images.gitee.com/uploads/images/2021/0811/144451_7a1333c3_9392840.png "25.png")
 
 ## 3.6 等待安装完成，完成后重启机器
