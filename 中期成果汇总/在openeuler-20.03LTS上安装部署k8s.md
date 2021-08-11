@@ -58,6 +58,7 @@ gpgcheck=0
 ```
 yum makecache
 ```
+
 ![图2](https://images.gitee.com/uploads/images/2021/0811/195728_c6561564_9392840.png "2.png")
 
 ## 2.2 配置dnf源（master节点和node节点都需要操作）
