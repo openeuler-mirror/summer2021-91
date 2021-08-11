@@ -77,6 +77,7 @@ skip_if_unavailable=False
 ```
 
 - 主要将`gpgcheck=1`修改为`gpgcheck=1`
+
 ![图3](https://images.gitee.com/uploads/images/2021/0811/195941_e715bd9c_9392840.png "3.png")
 
 
@@ -103,6 +104,7 @@ yum clean all
 yum makecache
 
 ```
+
 ![图4](https://images.gitee.com/uploads/images/2021/0811/200048_4a8ff17d_9392840.png "4.png")
 
 
@@ -129,7 +131,9 @@ docker version
 
 ## 3.3 docker启动失败
 
+
 ![图6](https://images.gitee.com/uploads/images/2021/0811/200246_d49eae79_9392840.png "6.png")
+
 
 - 若查询docker版本时，发现docker启动失败，可采用以下方法解决：
 
@@ -229,6 +233,7 @@ yum install -y kubelet-1.19.0-0 kubeadm-1.19.0-0 kubectl-1.19.0-0
 kubelet --version
 kubeadm version
 ```
+
 ![图9](https://images.gitee.com/uploads/images/2021/0811/200805_89569ecc_9392840.png "9.png")
 
 ## 5.3 启动kubelet并设置开机自动启动服务
@@ -246,6 +251,7 @@ systemctl enable kubelet
 #查看kubelet开机启动状态 enabled:开启, disabled:关闭  
 systemctl is-enabled kubelet  
 ```
+
 ![图10](https://images.gitee.com/uploads/images/2021/0811/200933_de590220_9392840.png "10.png")
 
 > # 六、初始化k8s集群（只需要master操作）
@@ -383,6 +389,7 @@ kubeadm join 192.168.1.103:6443 --token mz7qyy.tsdn8hdrp18xrddx  --discovery-tok
 #最后在master节点查看加入情况
 kubectl get nodes
 ```
+
 ![图11](https://images.gitee.com/uploads/images/2021/0811/201125_7e0026be_9392840.png "11.png")
 
 > # 八、安装flannel（在master操作）
