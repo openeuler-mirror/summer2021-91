@@ -34,7 +34,9 @@
 ![图8](https://images.gitee.com/uploads/images/2021/0811/144039_1b4ab630_9392840.png "8.png")
 
 ## 2.7 处理器数量尽量和主机系统相同
+
 - 在win10系统下，可以在任务管理器中，查看处理器个数
+
 ![图9](https://images.gitee.com/uploads/images/2021/0811/144051_ed94e502_9392840.png "9.png")
 
 ## 2.8 虚拟机内存要选择大于2G（安装k8s时需要）
