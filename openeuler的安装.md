@@ -9,20 +9,20 @@
 
 ## 1.2 下载以下镜像（若浏览器下载速度慢，可以保存下载链接后，使用迅雷下载）
 
-![图2](https://i.loli.net/2021/08/11/emVoKFJl32ALEd8.png)
+![图2](https://images.gitee.com/uploads/images/2021/0811/143643_8009e0f5_9392840.png "2.png")
 
 ## 1.3 下载完成后，开始创建虚拟机
 
 
 > # 二、创建VM虚拟机
 ## 2.1 打开VMare****软件
-![图3](https://i.loli.net/2021/08/11/RSgMYG8wlh34b5A.png)
+![图3](https://images.gitee.com/uploads/images/2021/0811/143656_06c398b6_9392840.png "3.png")
 
 ## 2.2 选择自定义安装
-![图4](https://i.loli.net/2021/08/11/mtbfO1q5Avk6dcG.png)
+![图4](https://images.gitee.com/uploads/images/2021/0811/143656_06c398b6_9392840.png "4.png")
 
 ## 2.3 选择硬件兼容性
-![图5](https://i.loli.net/2021/08/11/OvfRVB173zmh2Ws.png)
+![图5](https://images.gitee.com/uploads/images/2021/0811/143656_06c398b6_9392840.png "5.png")
 
 ## 2.4 选择稍后安装操作系统
 ![图6](https://i.loli.net/2021/08/11/wnyYXoxdhRv8Cz2.png)
