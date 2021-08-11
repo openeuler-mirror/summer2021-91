@@ -120,7 +120,7 @@ yum -y install net-tools git tar lrzsz
 - net-tools 可以使用ifconfig 查看虚拟机的网络配置
 - lrzsz 是Xshell与主机交换文件的命令包
 - tar 与压缩包相关
-
+- git 是一个开源的分布式版本控制系统，用git相关命令管理自己的文件或下载文件
 
  
 
