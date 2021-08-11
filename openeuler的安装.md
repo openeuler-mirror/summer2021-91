@@ -19,73 +19,72 @@
 ![图3](https://images.gitee.com/uploads/images/2021/0811/143656_06c398b6_9392840.png "3.png")
 
 ## 2.2 选择自定义安装
-![图4](https://images.gitee.com/uploads/images/2021/0811/143656_06c398b6_9392840.png "4.png")
+![图4](https://images.gitee.com/uploads/images/2021/0811/143756_06ef14e5_9392840.png "4.png")
 
 ## 2.3 选择硬件兼容性
-![图5](https://images.gitee.com/uploads/images/2021/0811/143656_06c398b6_9392840.png "5.png")
+![图5](https://images.gitee.com/uploads/images/2021/0811/143806_880eebbc_9392840.png "5.png")
 
 ## 2.4 选择稍后安装操作系统
-![图6](https://i.loli.net/2021/08/11/wnyYXoxdhRv8Cz2.png)
+![图6](https://images.gitee.com/uploads/images/2021/0811/143823_5d84f59b_9392840.png "6.png")
 
 ## 2.5 选择linux和其他Linux 4.x 64位
-![图7](https://i.loli.net/2021/08/11/j318apm5JCAkXDe.png)
+![图7](https://images.gitee.com/uploads/images/2021/0811/144026_a14bd4e7_9392840.png "7.png")
 
 ## 2.6 修改虚拟机名称和安装位置
-![图8](https://i.loli.net/2021/08/11/qFRNcEhQ3CGpW5S.png)
+![图8](https://images.gitee.com/uploads/images/2021/0811/144039_1b4ab630_9392840.png "8.png")
 
 ## 2.7 处理器数量尽量和主机系统相同
 - 在win10系统下，可以在任务管理器中，查看处理器个数
-![图9](https://i.loli.net/2021/08/11/SAJtgWKq9oj13bI.png)
+![图9](https://images.gitee.com/uploads/images/2021/0811/144051_ed94e502_9392840.png "9.png")
 
 ## 2.8 虚拟机内存要选择大于2G（安装k8s时需要）
-![图10.png](https://i.loli.net/2021/08/11/LRVIxcbKQvWnlJ2.png)
+![图10](https://images.gitee.com/uploads/images/2021/0811/144151_95143257_9392840.png "10.png")
 
 ## 2.9 网络类型（桥接网络，NAT都行）
-![图11](https://i.loli.net/2021/08/11/T5hDaG3UcAHLole.png)
+![图11](https://images.gitee.com/uploads/images/2021/0811/144201_f82e1366_9392840.png "11.png")
 
 ## 2.10 默认控制器类型
-![图12.png](https://i.loli.net/2021/08/11/zdU1XPywYpvWjrl.png)
-
+![图12](https://images.gitee.com/uploads/images/2021/0811/144212_d8d5c21b_9392840.png "12.png")
 ## 2.11 默认磁盘类型
-![图13](https://i.loli.net/2021/08/11/j28LaKB9WO3RAXg.png)
+![图13](https://images.gitee.com/uploads/images/2021/0811/144224_e7139575_9392840.png "13.png")
 
 ## 2.12 选择创建新磁盘
-![图14](https://i.loli.net/2021/08/11/k8F7dHABqSfV9l1.png)
+![图14](https://images.gitee.com/uploads/images/2021/0811/144234_62ac1459_9392840.png "14.png")
 
 ## 2.13 选择存储为单个文件，磁盘大小尽量大于15G
-![图15](https://i.loli.net/2021/08/11/neo9ImHANucg1Lw.png)
+![图15](https://images.gitee.com/uploads/images/2021/0811/144247_da9c2d9f_9392840.png "15.png")
 
 ## 2.14 指定磁盘文件
-![图16](https://i.loli.net/2021/08/11/Ed7pglv1C92mRZT.png)
+![图16](https://images.gitee.com/uploads/images/2021/0811/144257_6c8f53c3_9392840.png "16.png")
 
 ## 2.15 最后确认无误后，选择完成
-![图17](https://i.loli.net/2021/08/11/RL4TuKrGfX2vkIw.png)
+![图17](https://images.gitee.com/uploads/images/2021/0811/144316_27aa4cca_9392840.png "17.png")
 
 ## 2.16 在虚拟机设置中，加载第一步下载的镜像
-![图18](https://i.loli.net/2021/08/11/86umQqC7VJfsG31.png)
+![图18](https://images.gitee.com/uploads/images/2021/0811/144326_313015dc_9392840.png "18.png")
 
 ## 2.17 开机后，开始安装openEuler
-![图19](https://i.loli.net/2021/08/11/vTROutypWkC5Kz3.png)
+![图19](https://images.gitee.com/uploads/images/2021/0811/144341_01c20792_9392840.png "19.png")
 
 > # 三、安装openEuler
 ## 3.1 选择Install openEuler 20.03-LTS
-![图20](https://i.loli.net/2021/08/11/vTROutypWkC5Kz3.png)
+![图20](https://images.gitee.com/uploads/images/2021/0811/144341_01c20792_9392840.png "19.png")
 
 ## 3.2 选择安装语言
-![图21](https://bj.bcebos.com/shitu-query-bj/2021-08-11/14/e3a74a971a0604e6?authorization=bce-auth-v1%2F7e22d8caf5af46cc9310f1e3021709f3%2F2021-08-11T06%3A18%3A02Z%2F300%2F%2Feec0fb318ff56e53c9bca27c69e6dbfe62fb68559abd25c9342d4e7c80f1cca0)
+![图21](https://images.gitee.com/uploads/images/2021/0811/144408_2651e3c1_9392840.png "21.png")
 
 ## 3.3 选择安装位置
-![图22](https://bj.bcebos.com/shitu-query-bj/2021-08-11/14/44d463a3169f9eea?authorization=bce-auth-v1%2F7e22d8caf5af46cc9310f1e3021709f3%2F2021-08-11T06%3A20%3A10Z%2F300%2F%2Fb14d22ae674d1eb71b3d053cfb56362bab5545591a29c772d199c970b1d530c5)
+![图22](https://images.gitee.com/uploads/images/2021/0811/144418_47770d26_9392840.png "22.png")
 
 ## 3.4 默认设置就可以了，确定后点击完成
-![图23](https://bj.bcebos.com/shitu-query-bj/2021-08-11/14/3c8379916f50226b?authorization=bce-auth-v1%2F7e22d8caf5af46cc9310f1e3021709f3%2F2021-08-11T06%3A22%3A10Z%2F300%2F%2F33d9ebb91e49108d43b16b30d3d3d104267977f5da66897f46fcd4521e4b2434)
+![图23](https://images.gitee.com/uploads/images/2021/0811/144437_638a3e2e_9392840.png "23.png")
 
 ## 3.5 设置root密码
 - 密码需要三种不同字符
-![图24](https://bj.bcebos.com/shitu-query-bj/2021-08-11/14/579b9a98e1bc2bcb?authorization=bce-auth-v1%2F7e22d8caf5af46cc9310f1e3021709f3%2F2021-08-11T06%3A23%3A30Z%2F300%2F%2F4bbe31c81eaafaeb4711cd44a17f36504a2f91f80c6bc724a1387d0e2df397dc)
+![图24](https://images.gitee.com/uploads/images/2021/0811/144451_7a1333c3_9392840.png "25.png")
 
 ## 3.6 等待安装完成，完成后重启机器
-![图25](https://bj.bcebos.com/shitu-query-bj/2021-08-11/14/d413ef85d6a34651?authorization=bce-auth-v1%2F7e22d8caf5af46cc9310f1e3021709f3%2F2021-08-11T06%3A24%3A54Z%2F300%2F%2F6a12a10616f024bc1dd419e236a1db4d6c71d2a90b6ee4e46df7c1a98736ec8c)
+![图25](https://images.gitee.com/uploads/images/2021/0811/144507_49a35e2f_9392840.png "26.png")
 
 
 
