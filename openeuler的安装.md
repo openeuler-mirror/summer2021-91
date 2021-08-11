@@ -5,7 +5,7 @@
 
 - `https://repo.openeuler.org/openEuler-20.03-LTS/ISO/`
 
-![图1](https![输入图片说明](https://images.gitee.com/uploads/images/2021/0811/143515_538f2da4_9392840.png "1.png")://i.loli.net/2021/08/11/1lRcCNTS8u3vHZQ.png)
+![图1](https://images.gitee.com/uploads/images/2021/0811/143606_8c84ce54_9392840.png "1.png")
 
 ## 1.2 下载以下镜像（若浏览器下载速度慢，可以保存下载链接后，使用迅雷下载）
 
