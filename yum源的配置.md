@@ -10,9 +10,12 @@
 ip addr
 ```
 
-图1
+![图1](https://images.gitee.com/uploads/images/2021/0811/160703_506484d3_9392840.png "y1.png")
 
 - 如果发现没有inet地址（ipv4），或者ens33网卡丢失
+
+![图2](https://images.gitee.com/uploads/images/2021/0811/160912_e27deba1_9392840.png "y2.png")
+
 - <strong>解决方法如下</strong>：
 
 1. 查看配置文件`/etc/sysconfig/network-scripts/ifcfg-ens33`是否还在
@@ -21,11 +24,11 @@ ip addr
 cd /etc/sysconfig/network-scripts/
 ls
 ```
-图
+![图3](https://images.gitee.com/uploads/images/2021/0811/160843_fa1b5082_9392840.png "3.png")
 
 2. <strong>若配置文件还在</strong>，修改配置文件`OBBOOT=yes`
 
-图
+![图4](https://images.gitee.com/uploads/images/2021/0811/161021_5353cf4b_9392840.png "4.png")
 
 3. 顺序执行以下代码，关闭网络服务，重新启动
 
@@ -40,8 +43,7 @@ service NetworkManager start
 
 - 打开Xshell，新建会话，输入ip地址后点击连接
 
-图
-
+![图5](https://images.gitee.com/uploads/images/2021/0811/161137_b0bf3c82_9392840.png "5.png")
 
 ## 1.3 配置yum源
 
@@ -98,7 +100,7 @@ gpgcheck=0
 yum makecache
 ```
 
-图
+![图6](https://images.gitee.com/uploads/images/2021/0811/161302_f0a4e56e_9392840.png "6.png")
 
 - 查询已经成功配置的yum源
 
@@ -106,7 +108,8 @@ yum makecache
 yum repolist
 ```
 
-图
+![图7](https://images.gitee.com/uploads/images/2021/0811/161351_c65fc876_9392840.png "7.png")
+
 
 > # 二、安装几个常用的包
 
