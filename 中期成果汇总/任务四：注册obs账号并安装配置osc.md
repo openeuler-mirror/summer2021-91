@@ -4,18 +4,15 @@
 
 - 打开网址`https://build.openeuler.org/user/signup`，填写相关信息后，选择`sign up`
 
-图
+![图1](https://images.gitee.com/uploads/images/2021/0812/161139_58f775af_9392840.png "1.png")
 
 - 进入如下界面
 
-图
-
-
+![图2](https://images.gitee.com/uploads/images/2021/0812/161200_8e69b43c_9392840.png "2.png")
 
 > # 二、OSC安装配置
 
 - osc是obs的客户端，提供用于跟obs交互的API命令行，可以很方便的在本地跟OBS Server进行交互，几乎所有页面上操作都有对应的osc命令行。
-
 
 ## 2.1 配置openeuler的yum源（可以参考任务二的过程，也可以直接配置如下yum源）
 
@@ -43,9 +40,8 @@ yum makecache
 # -y 表示全部默认yes
 yum install osc -y
 ```
-
-图
-
+![图3](https://images.gitee.com/uploads/images/2021/0812/161225_2b25fa46_9392840.png "3.png")
+![图4](https://images.gitee.com/uploads/images/2021/0812/161236_55ccb027_9392840.png "4.png")
 
 ## 2.3 osc的配置
 
@@ -69,8 +65,7 @@ pass=”your password”
 nl /root/.oscrc
 ```
 
-图
-
+![图5](https://images.gitee.com/uploads/images/2021/0812/161349_f2383c19_9392840.png "5.png")
 
 
 
