@@ -28,6 +28,8 @@ cd volcano/
 
 ![图2](https://images.gitee.com/uploads/images/2021/0812/221545_bed54517_9392840.png "2.png")
 
+![图3](https://images.gitee.com/uploads/images/2021/0812/221558_3ff9084a_9392840.png "3.png")
+
 - 报错：未安装kubctl
 
 > # 三、安装kubectl
@@ -37,7 +39,7 @@ cd volcano/
 curl -LO https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl
 ```
 
-![图3](https://images.gitee.com/uploads/images/2021/0812/221558_3ff9084a_9392840.png "3.png")
+![图4](https://images.gitee.com/uploads/images/2021/0812/221807_8e85b263_9392840.png "4.png")
 
 ## 3.2 下载kubectl校验文件（校验文件和文件的版本必须相同）
 ```
@@ -53,8 +55,6 @@ kubectl: OK
 kubectl: FAILED
 sha256sum: WARNING: 1 computed checksum did NOT match
 ```
-
-![图4](https://images.gitee.com/uploads/images/2021/0812/221807_8e85b263_9392840.png "4.png")
 
 ## 3.3 安装kubectl
 ```
