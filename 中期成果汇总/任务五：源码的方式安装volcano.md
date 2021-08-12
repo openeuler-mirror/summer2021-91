@@ -6,7 +6,7 @@
 yum -y install git
 ```
 
-图
+![图1](https://images.gitee.com/uploads/images/2021/0812/221344_ffe56952_9392840.png "1.png")
 
 > # 二、从github上克隆volcano源码压缩包
 
@@ -26,7 +26,7 @@ cd volcano/
 ./hack/local-up-volcano.sh
 ```
 
-图
+![图2](https://images.gitee.com/uploads/images/2021/0812/221545_bed54517_9392840.png "2.png")
 
 - 报错：未安装kubctl
 
@@ -37,7 +37,7 @@ cd volcano/
 curl -LO https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl
 ```
 
-图
+![图3](https://images.gitee.com/uploads/images/2021/0812/221558_3ff9084a_9392840.png "3.png")
 
 ## 3.2 下载kubectl校验文件（校验文件和文件的版本必须相同）
 ```
@@ -54,7 +54,7 @@ kubectl: FAILED
 sha256sum: WARNING: 1 computed checksum did NOT match
 ```
 
-图
+![图4](https://images.gitee.com/uploads/images/2021/0812/221807_8e85b263_9392840.png "4.png")
 
 ## 3.3 安装kubectl
 ```
@@ -65,6 +65,8 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ```
 kubectl version --client
 ```
+
+![图5](https://images.gitee.com/uploads/images/2021/0812/221826_f93431a1_9392840.png "kubectl.png")
 
 > # 四、继续执行安装脚本
 
@@ -90,7 +92,7 @@ source /etc/profile
 go version
 ```
 
-图
+![图6](https://images.gitee.com/uploads/images/2021/0812/221912_4c4ff2aa_9392840.png "6.png")
 
 ## 4.2 报错：没有安装docker
 
@@ -110,9 +112,11 @@ yum makecache
 yum install -y docker
 ```
 
-图
+![图7](https://images.gitee.com/uploads/images/2021/0812/221939_3ae65e90_9392840.png "8.png")
 
 ## 4.3 报错：没有安装kind
+
+![图8](https://images.gitee.com/uploads/images/2021/0812/222005_52571a6b_9392840.png "7.png")
 
 ```
 #下载kind二进制安装包  
@@ -128,14 +132,13 @@ mv ./kind /usr/local/bin/kind
 kind version 
 ```
 
-图
+![图9](https://images.gitee.com/uploads/images/2021/0812/222059_06da55d9_9392840.png "kind.png")
 
 > # 五、继续执行安装脚本
 
 - 又产生报错，目前还正在解决当中
 
-图
-
+![图10](https://images.gitee.com/uploads/images/2021/0812/222113_3ab6f8ea_9392840.png "last.png")
 
 
 
