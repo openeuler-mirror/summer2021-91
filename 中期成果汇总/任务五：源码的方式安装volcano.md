@@ -112,6 +112,9 @@ yum makecache
 yum install -y docker
 ```
 
+- 若docker安装失败，可以查看任务三的3.3
+
+
 ![图7](https://images.gitee.com/uploads/images/2021/0812/221939_3ae65e90_9392840.png "8.png")
 
 ## 4.3 报错：没有安装kind
