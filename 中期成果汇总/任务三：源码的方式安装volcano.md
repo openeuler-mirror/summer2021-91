@@ -70,7 +70,7 @@ kubectl version --client
 
 > # 四、继续执行安装脚本
 
-## 4.1 报错：没有安装go语言
+## 4.1 报错：没有安装go语言环境
 ```
 #下载对应版本的安装包
 wget https://dl.google.com/go/go1.10.3.linux-amd64.tar.gz
