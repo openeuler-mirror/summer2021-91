@@ -76,7 +76,7 @@ best=True
 skip_if_unavailable=False  
 ```
 
-- 主要将`gpgcheck=1`修改为`gpgcheck=1`
+- 主要将`gpgcheck=1`修改为`gpgcheck=0`
 
 ![图3](https://images.gitee.com/uploads/images/2021/0811/195941_e715bd9c_9392840.png "3.png")
 
