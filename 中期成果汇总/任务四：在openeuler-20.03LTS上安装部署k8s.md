@@ -11,7 +11,7 @@
 
 ```
 #打开配置文件
-vi /etc/yum.repos.d/
+vi /etc/yum.repos.d/openEuler_x86_64.repo
 
 #加入以下内容
 [base]  
