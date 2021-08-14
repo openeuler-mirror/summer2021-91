@@ -143,7 +143,7 @@ docker version
 ```
 #注意拼写和英文符号
 {
- "registry-mirrors": ["https://registry.docker-cn.com"]
+ "registry-mirrors":["https://6kx4zyno.mirror.aliyuncs.com"]
 }
 ```
 
